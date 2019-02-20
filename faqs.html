@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0053)https://v4-alpha.getbootstrap.com/examples/offcanvas/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -25,9 +25,10 @@
 
     <!-- Custom styles for this template -->
     <link href="./css/offcanvas.css" rel="stylesheet">
+  <link href="./css/common.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="faq-body">
     <nav class="navbar navbar-expand-md fixed-top navbar-light">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -81,7 +82,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Ask a question</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="./faqs.html">FAQs</a>
+            <a class="dropdown-item" href="#">FAQs</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Give us feedback</a>
             </div>
@@ -100,40 +101,67 @@
       </div>
     </nav>
 
-    <div id="welcome-bg" >
-      <div class="block-heading">
-        <div id="welcome-heading" style="padding: 10px;">
-          <h1 class="text-center text-white">Welcome to <strong>PCET Library</strong></h1>
-        </div>
-        <div id="welcome-subheading" style="padding: 20px 170px;">
-          <h4 class="text-center text-white">A Standalone Library System where you can browse through all of the books, and issue them right from here</h4>
-        </div>
-           <div class="row" id="search-bar" style="height:55px;">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="input-group" style="height:100%;padding:0px; font-family:truenoLight;">
-                    <span class="input-group-prepend">
-                        <div class="input-group-text bg-light border-right-0"><i class="fa fa-search"></i></div>
-                    </span>
-                    <input class="form-control py-2 border-left-0 border" type="search" placeholder="Search for Books, Novels and Articles" id="example-search-input">
-                    <span class="input-group-append">
-                    <button class="btn bg-info text-white border-left-0 border" type="button">
-                        Search
-                    </button>
-                  </span>
-                </div>
-            </div>
-            <div class="col-md-2"></div>
+    <div style="margin-top: 50px; padding: 40px;">
+      <div class="page-heading">
+        <h1><strong>Frequently Asked Questions [FAQs]</strong></h1>
+        <div class="page-subheading">
+          <h5>Here you can find most probable questions that you might need answers to! Read the answers to know more.</h5>
         </div>
       </div>
+
     </div>
+
+      <div style="margin-right: 200px; padding-left: 40px;">
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn text-info btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How to use this website?
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn text-info btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Are e-books available from the PCET Library?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn text-info btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Collapsible Group Item #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <footer>
         <p>© Company 2017</p>
       </footer>
-
-    </div><!--/.container-->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -142,7 +170,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384- KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 </body></html>

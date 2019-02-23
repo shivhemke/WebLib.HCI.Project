@@ -2,13 +2,10 @@
  * Style tweaks
  * --------------------------------------------------
  */
-html,
-body {
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
     font-family: 'TruenoRegular';
     font-weight: 100;
     font-style: normal;
@@ -31,6 +28,15 @@ body {
     font-weight: 100;
     font-style: normal;
     color: dimgrey;
+}
+
+.card-header{
+    padding: 4px;
+    text-decoration: none;
+}
+
+.text-info{
+
 }
 
 footer {

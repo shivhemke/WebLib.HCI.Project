@@ -4,6 +4,12 @@
     background-size: 100%;
 }
 
+.ask-body{
+    background:  url(../images/hp-background.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
 h1{
     font-size: 45px !important;
 }

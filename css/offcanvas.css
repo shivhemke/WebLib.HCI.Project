@@ -23,6 +23,9 @@ html,body {
 }
 
 /*accordion*/
+.card{
+    border: none;
+}
 .card-body{
     font-family: 'TruenoLight';
     font-weight: 100;
